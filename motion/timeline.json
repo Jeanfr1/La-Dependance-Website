@@ -1,0 +1,18 @@
+{
+  "model": 3,
+  "name": "Le Passage / À PART.",
+  "video_requested": false,
+  "video_generated": false,
+  "technique": "2.5D photographic foreground and D-shaped CSS mask; not a rigged 3D person",
+  "intro_seconds": 1.25,
+  "intro_cleanup_seconds": 1.6,
+  "desktop_runway_svh": 166,
+  "mobile_runway_svh": 150,
+  "title_exit_progress": [0.25, 0.73],
+  "portal_progress": [0.48, 1.0],
+  "foreground_max_x_vw": 32,
+  "foreground_max_scale": 1.045,
+  "mouse_parallax_px": [7, 5],
+  "reduced_motion": "static full composition without pinned runway or parallax",
+  "booking_destination": "https://www.planity.com/la-dependance-beaute-du-regard-44160-pontchateau"
+}

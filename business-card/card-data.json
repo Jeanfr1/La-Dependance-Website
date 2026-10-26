@@ -1,0 +1,16 @@
+{
+  "brand": "La Dépendance",
+  "name": "Mélissa Perraud",
+  "role": "Dermographe · Prothésiste ongulaire",
+  "street": "22 Grande Rue",
+  "city": "44160 Pontchâteau",
+  "booking_label": "Rendez-vous sur Planity",
+  "instagram_label": "@ladependance_beauteduregard",
+  "booking_url": "https://www.planity.com/la-dependance-beaute-du-regard-44160-pontchateau",
+  "instagram_url": "https://www.instagram.com/ladependance_beauteduregard/",
+  "trim_width_mm": 85,
+  "trim_height_mm": 55,
+  "bleed_mm": 3,
+  "colors": {"prune": "#3D2435", "ivory": "#F5EFE7", "rose": "#D4B4BB"},
+  "notes": "RGB artwork with 3 mm bleed and TrimBox; no PDF/X or printer ICC certification. Confirm the target printer profile. Relief in the mockup is a suggested finish, not a separate embossing plate."
+}

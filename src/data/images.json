@@ -1,0 +1,224 @@
+{
+  "studio": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      960,
+      1672
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "portrait": {
+    "width": 1135,
+    "height": 1386,
+    "widths": [
+      560,
+      840,
+      1135
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "interieur": {
+    "width": 2700,
+    "height": 1512,
+    "widths": [
+      800,
+      1300,
+      1900,
+      2700
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "ongles": {
+    "width": 1524,
+    "height": 1800,
+    "widths": [
+      760,
+      1150,
+      1524
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "equipe": {
+    "width": 1346,
+    "height": 1660,
+    "widths": [
+      700,
+      1000,
+      1346
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "equipe-flou": {
+    "width": 1346,
+    "height": 1660,
+    "widths": [
+      160
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "reservation": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      900,
+      1300,
+      1672
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "reservation-flou": {
+    "width": 1672,
+    "height": 941,
+    "widths": [
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "interieur-flou": {
+    "width": 2700,
+    "height": 1512,
+    "widths": [
+      220
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "ongles-flou": {
+    "width": 1524,
+    "height": 1800,
+    "widths": [
+      160
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "telephone": {
+    "width": 392,
+    "height": 211,
+    "widths": [
+      392
+    ],
+    "offset": [
+      866,
+      121
+    ],
+    "v": "v1"
+  },
+  "galerie-fuchsia": {
+    "width": 1524,
+    "height": 1800,
+    "widths": [
+      640,
+      1100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "galerie-bleu-jaune": {
+    "width": 1520,
+    "height": 1828,
+    "widths": [
+      640,
+      1100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "galerie-fraises": {
+    "width": 1520,
+    "height": 1820,
+    "widths": [
+      640,
+      1100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "galerie-regard": {
+    "width": 2520,
+    "height": 3080,
+    "widths": [
+      640,
+      1100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "v": "v1"
+  },
+  "logo": {
+    "width": 1488,
+    "height": 707,
+    "widths": [
+      320,
+      520
+    ],
+    "offset": [
+      143,
+      106
+    ],
+    "v": "v1"
+  },
+  "monogramme": {
+    "width": 349,
+    "height": 379,
+    "widths": [
+      160,
+      320
+    ],
+    "offset": [
+      8,
+      16
+    ],
+    "v": "v1"
+  }
+}

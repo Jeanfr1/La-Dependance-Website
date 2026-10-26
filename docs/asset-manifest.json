@@ -1,0 +1,160 @@
+{
+  "assets": [
+    {
+      "file": "images/originals/interieur-original.png",
+      "kind": "client_original",
+      "sha256": "4a045f65262a241a5c5a3a9cbda8f562973c073a0b6acea4a39b0bd77e4cb2fc",
+      "source_attachment": "Screenshot 2026-10-26 at 22.30.47.png",
+      "source_attachment_sha256": "4a045f65262a241a5c5a3a9cbda8f562973c073a0b6acea4a39b0bd77e4cb2fc"
+    },
+    {
+      "file": "site/assets/interieur-original.webp",
+      "kind": "web_derivative_of_client_original",
+      "source": "images/originals/interieur-original.png",
+      "sha256": "5074ecd80556ba2046c3917c509be16c187ba99392c668233e470f46f8fc2046",
+      "treatment": "WebP quality 95, no content retouch; layout crop is CSS/SVG"
+    },
+    {
+      "file": "images/originals/regard-01-original.png",
+      "kind": "client_original",
+      "sha256": "2e5aa0c83a4bf525af821e01eeca12bf5810ca031277c56dae26c6e485445a1d",
+      "source_attachment": "Screenshot 2026-10-26 at 22.31.10.png",
+      "source_attachment_sha256": "2e5aa0c83a4bf525af821e01eeca12bf5810ca031277c56dae26c6e485445a1d"
+    },
+    {
+      "file": "images/originals/ongles-bleu-jaune-original.png",
+      "kind": "client_original",
+      "sha256": "658430d78c0614984bf0e5cd40848eb73fe60a30b11e9da5c53bc9574ee5af52",
+      "source_attachment": "Screenshot 2026-10-26 at 22.31.38.png",
+      "source_attachment_sha256": "658430d78c0614984bf0e5cd40848eb73fe60a30b11e9da5c53bc9574ee5af52"
+    },
+    {
+      "file": "site/assets/ongles-bleu-jaune-original.webp",
+      "kind": "web_derivative_of_client_original",
+      "source": "images/originals/ongles-bleu-jaune-original.png",
+      "sha256": "c4741a2a04505cfc236adcab9624b51f8d78d7cfe392198c9f079bedf4a8583f",
+      "treatment": "WebP quality 95, no content retouch; layout crop is CSS/SVG"
+    },
+    {
+      "file": "images/originals/ongles-fraises-original.png",
+      "kind": "client_original",
+      "sha256": "518cda4793277ab23287b80e19b8b2dba055b6510d059e6ec204b6cde5a170f0",
+      "source_attachment": "Screenshot 2026-10-26 at 22.31.48.png",
+      "source_attachment_sha256": "518cda4793277ab23287b80e19b8b2dba055b6510d059e6ec204b6cde5a170f0"
+    },
+    {
+      "file": "site/assets/ongles-fraises-original.webp",
+      "kind": "web_derivative_of_client_original",
+      "source": "images/originals/ongles-fraises-original.png",
+      "sha256": "f30cc45e48ebd8618840972deb13232144b70779cd211a7dbd112f9096f55660",
+      "treatment": "WebP quality 95, no content retouch; layout crop is CSS/SVG"
+    },
+    {
+      "file": "images/originals/ongles-fuchsia-original.png",
+      "kind": "client_original",
+      "sha256": "eb2a1c784f68ded9e5ca38beb4d1ced6fc62435bb342dfdc957473f2bd7a3cd7",
+      "source_attachment": "Screenshot 2026-10-26 at 22.32.08.png",
+      "source_attachment_sha256": "eb2a1c784f68ded9e5ca38beb4d1ced6fc62435bb342dfdc957473f2bd7a3cd7"
+    },
+    {
+      "file": "site/assets/ongles-fuchsia-original.webp",
+      "kind": "web_derivative_of_client_original",
+      "source": "images/originals/ongles-fuchsia-original.png",
+      "sha256": "f6eec3bfa184bda1731c7a537138519e1d3f16ab582294785a69f7a498f6b380",
+      "treatment": "WebP quality 95, no content retouch; layout crop is CSS/SVG"
+    },
+    {
+      "file": "images/originals/regard-02-original.png",
+      "kind": "client_original",
+      "sha256": "abadd87f8687701349e62088b5236d4eb1cdddf0c1e4a347ddb3f3f3075f4dd3",
+      "source_attachment": "Screenshot 2026-10-26 at 22.33.00.png",
+      "source_attachment_sha256": "abadd87f8687701349e62088b5236d4eb1cdddf0c1e4a347ddb3f3f3075f4dd3"
+    },
+    {
+      "file": "site/assets/regard-02-original.webp",
+      "kind": "web_derivative_of_client_original",
+      "source": "images/originals/regard-02-original.png",
+      "sha256": "a259f8d66420ef37c6a48d3fe1f90fc22681a99a12a13cf140c0dcb340236343",
+      "treatment": "WebP quality 95, no content retouch; layout crop is CSS/SVG"
+    },
+    {
+      "file": "images/originals/equipe-original.png",
+      "kind": "client_original",
+      "sha256": "28dc32ac3a25de9ce8f0cb92378528cbe860e0cd3fa316cc11e690486351fc7c",
+      "source_attachment": "Screenshot 2026-10-26 at 22.33.24.png",
+      "source_attachment_sha256": "28dc32ac3a25de9ce8f0cb92378528cbe860e0cd3fa316cc11e690486351fc7c"
+    },
+    {
+      "file": "site/assets/equipe-original.webp",
+      "kind": "web_derivative_of_client_original",
+      "source": "images/originals/equipe-original.png",
+      "sha256": "d2a7b4ec8b6635a347690b3d1afa4ea4a48af103f1a1a1901f95da4a35ac3780",
+      "treatment": "WebP quality 95, no content retouch; layout crop is CSS/SVG"
+    },
+    {
+      "file": "images/originals/instagram-informations.png",
+      "kind": "client_original",
+      "sha256": "098fe3080a39744d508745438bb31aec24691725cc36348b68266f7f94606936",
+      "source_attachment": "Screenshot 2026-10-26 at 22.34.30.png",
+      "source_attachment_sha256": "098fe3080a39744d508745438bb31aec24691725cc36348b68266f7f94606936"
+    },
+    {
+      "file": "images/master/reservation-scene.png",
+      "kind": "generated_campaign_master",
+      "sha256": "1c215a6e72e29025ba2d2560c9764cfbfdd2cc6f59344d8a339619bb9db3370a"
+    },
+    {
+      "file": "site/assets/reservation-scene.webp",
+      "kind": "web_derivative_of_campaign",
+      "source": "images/master/reservation-scene.png",
+      "sha256": "299461882df10ad9112073fbfb4ef6ee9d5566d46b4f9ae304b7bdb02faa70bc"
+    },
+    {
+      "file": "images/master/hero-portrait-D.png",
+      "kind": "generated_campaign_master",
+      "sha256": "c402be0154f206cc7c04825a2a1f7a5ee307eac0db93dcc32d68a4999cbc65f5"
+    },
+    {
+      "file": "site/assets/hero-portrait-D.webp",
+      "kind": "web_derivative_of_campaign",
+      "source": "images/master/hero-portrait-D.png",
+      "sha256": "45b094e716ee9a394916ebf39d9c1e622564db2a2fbce608f0d07d33795fc6df"
+    },
+    {
+      "file": "images/master/hero-studio.png",
+      "kind": "generated_campaign_master",
+      "sha256": "cf9090fcfa545b6fc2742f7cf34300eef6e5be8b9b4f9228a8ea2f3f104058ec"
+    },
+    {
+      "file": "site/assets/hero-studio.webp",
+      "kind": "web_derivative_of_campaign",
+      "source": "images/master/hero-studio.png",
+      "sha256": "04654ce34f26481e4d2d4eb1a7d6f561f8e5a562fdd7ee203382acf1b6d36812"
+    },
+    {
+      "file": "brand/La-Dependance-Logo-Ivoire.svg",
+      "kind": "native_vector_outlines",
+      "sha256": "78b569cbdaa57ebdc3b58aa143ce0060ba2935435c21e48e1b1b0822f2839404"
+    },
+    {
+      "file": "brand/La-Dependance-Logo-Transparente.png",
+      "kind": "approved_logo_png",
+      "sha256": "02c1bd91d23ab760a962459f7beb74f0df78ed6c8e89cdc568911752cc6a0028"
+    },
+    {
+      "file": "brand/Monogramme-LD-Ivoire.svg",
+      "kind": "native_vector_outlines",
+      "sha256": "f5f801c6cbc0ac7a44b2d1c0fa0e7a1bcafd933fbc5d3c14a5813c3e1afd0e36"
+    },
+    {
+      "file": "brand/La-Dependance-Logo.svg",
+      "kind": "native_vector_outlines",
+      "sha256": "f979e3f2c481b1454fc3c5e905c84e3d8d137b767b496363303ae42d4d674ab9"
+    },
+    {
+      "file": "brand/Monogramme-LD.svg",
+      "kind": "native_vector_outlines",
+      "sha256": "8d6507d0159015b4fcc0bdacb22de1eac323e99024db10d08168ef2275bee658"
+    }
+  ]
+}

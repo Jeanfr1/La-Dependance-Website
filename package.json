@@ -1,0 +1,26 @@
+{
+  "name": "la-dependance-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "La Dépendance — Ongles & Regard, Pontchâteau. One-page site, model 3 « À PART. / Le Passage ».",
+  "scripts": {
+    "dev": "vite --port 4356",
+    "build": "vite build",
+    "preview": "vite preview --port 4357 --strictPort",
+    "images": "node scripts/build-images.mjs",
+    "fonts": "~/anaconda3/bin/python3 scripts/build-fonts.py",
+    "prepare-images": "~/anaconda3/bin/python3 scripts/clean-photos.py && ~/anaconda3/bin/python3 scripts/prepare-images.py",
+    "fit-type": "python3 scripts/fit-type.py",
+    "qa": "node scripts/qa.mjs",
+    "compare": "node scripts/compare-board.mjs"
+  },
+  "dependencies": {
+    "lenis": "1.3.27"
+  },
+  "devDependencies": {
+    "playwright": "1.48.2",
+    "sharp": "0.33.5",
+    "vite": "6.4.5"
+  }
+}

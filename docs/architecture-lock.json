@@ -1,0 +1,52 @@
+{
+  "company": "La Dépendance",
+  "selected_model": 3,
+  "selected_name": "À PART. / Le Passage",
+  "selected_reference": "references/Modele3-A-Part-Approuve.png",
+  "selected_reference_sha256": "3ffc4da27048ff0557d8ea680bccaad4d7f13a82f7e8551aaef99fc15a5854c4",
+  "public_language": "fr-FR",
+  "hero_title": "À PART.",
+  "main_scene_ids": [
+    "accueil",
+    "lieu",
+    "prestations",
+    "creations",
+    "equipe",
+    "rendez-vous"
+  ],
+  "main_background_sequence": [
+    "photographic",
+    "photographic",
+    "solid",
+    "photographic",
+    "photographic",
+    "photographic"
+  ],
+  "single_solid_scene": "prestations",
+  "palette": {
+    "prune": "#3D2435",
+    "ivory": "#F5EFE7",
+    "rose": "#D4B4BB",
+    "mauve": "#9E6874"
+  },
+  "booking": "https://www.planity.com/la-dependance-beaute-du-regard-44160-pontchateau",
+  "logo_png": "brand/La-Dependance-Logo-Transparente.png",
+  "logo_png_sha256": "02c1bd91d23ab760a962459f7beb74f0df78ed6c8e89cdc568911752cc6a0028",
+  "no_video": true,
+  "card": {
+    "trim_mm": [
+      85,
+      55
+    ],
+    "bleed_mm": 3,
+    "pdf": "business-card/La-Dependance-Cartao-85x55mm-3mm.pdf",
+    "pages": 2
+  },
+  "forbidden_changes": [
+    "Use hero VOUS or LE GESTE",
+    "Replace actual place/team/portfolio with synthetic documentary images",
+    "Add more solid main sections",
+    "Generate animation video",
+    "Invent phone, prices, hours, ratings or medical claims"
+  ]
+}

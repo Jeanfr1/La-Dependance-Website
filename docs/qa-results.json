@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "scope": "source, assets, brand, PDF and package checks; not browser QA",
+  "checks": [
+    "model 3 selection and approved-reference hashes",
+    "six approved scenes, one solid rose scene, French, links/ARIA and no invented phone",
+    "CSS assets, inline SVG, 7 SVG files, JSON and WOFF signatures",
+    "32 images decode; transparent logo/foreground; identical PNG logo copies; no video files",
+    "all 8 client originals unchanged; campaign and web derivative origins recorded",
+    "JavaScript syntax; service/tab data binding; gallery files and dimensions",
+    "two-page card PDF: 91x61 mm, 85x55 TrimBox, exact French text, live links and vector front"
+  ],
+  "logo": {
+    "mode": "RGBA",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "fully_transparent_percent": 86.084
+  },
+  "pdf": {
+    "pages": 2,
+    "media_mm": [
+      91,
+      61
+    ],
+    "trim_mm": [
+      85,
+      55
+    ],
+    "bleed_mm": 3,
+    "visual_inspection": "front and back rendered and reviewed",
+    "profile": "RGB; not certified PDF/X or printer ICC"
+  },
+  "video_files": 0,
+  "browser_qa": {
+    "status": "UNVERIFIED",
+    "reason": "sites-previewd mailbox unavailable at /tmp/sites-previewd/requests; start/status returned os error 2"
+  },
+  "not_performed": [
+    "browser layout and interactive QA",
+    "performance measurement",
+    "deployment"
+  ],
+  "package_checksums": "Generated after this report and rechecked before archive creation."
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+.vercel
+scripts/out/
+qa/
+scripts/__pycache__/
+# third-party style references and the Instagram capture stay local (public repo)
+references/Reference-Photo.jpg
+references/Reference-Reservation.jpg
+references/Concept-Typographie.jpg
+images/originals/instagram-informations.png

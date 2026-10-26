@@ -1,0 +1,392 @@
+{
+  "nav1": {
+    "text": "Ongles",
+    "font": "manrope",
+    "ink": [
+      248,
+      29,
+      285,
+      41
+    ],
+    "size": 12.12,
+    "scale_x": 0.959,
+    "baseline": 37.9
+  },
+  "nav2": {
+    "text": "Regard",
+    "font": "manrope",
+    "ink": [
+      323,
+      29,
+      361,
+      41
+    ],
+    "size": 12.31,
+    "scale_x": 0.972,
+    "baseline": 37.9
+  },
+  "nav3": {
+    "text": "L’institut",
+    "font": "manrope",
+    "ink": [
+      399,
+      29,
+      446,
+      38
+    ],
+    "size": 12.16,
+    "scale_x": 0.967,
+    "baseline": 37.8
+  },
+  "header-cta": {
+    "text": "PRENDRE RENDEZ-VOUS ↗",
+    "font": "manrope600",
+    "ink": [
+      554,
+      28,
+      684,
+      35
+    ],
+    "size": 9.33,
+    "scale_x": 1.118,
+    "baseline": 34.9
+  },
+  "script": {
+    "text": "votre beauté",
+    "font": "caveat",
+    "ink": [
+      78,
+      145,
+      254,
+      194
+    ],
+    "size": 73.96,
+    "scale_x": 0.566,
+    "baseline": 193.6
+  },
+  "title": {
+    "text": "PART.",
+    "font": "anton",
+    "ink": [
+      118,
+      208,
+      341,
+      369
+    ],
+    "size": 187.21,
+    "scale_x": 0.597,
+    "baseline": 369.0
+  },
+  "title-a": {
+    "text": "À",
+    "font": "anton",
+    "ink": [
+      32,
+      196,
+      87,
+      370
+    ],
+    "size": 158.18,
+    "scale_x": 0.764,
+    "baseline": 370.0
+  },
+  "lead1": {
+    "text": "La beauté des ongles et du regard,",
+    "font": "manrope",
+    "ink": [
+      33,
+      385,
+      284,
+      400
+    ],
+    "size": 14.49,
+    "scale_x": 1.104,
+    "baseline": 396.3
+  },
+  "lead2": {
+    "text": "à Pontchâteau.",
+    "font": "manrope",
+    "ink": [
+      32,
+      406,
+      141,
+      418
+    ],
+    "size": 15.09,
+    "scale_x": 1.044,
+    "baseline": 417.8
+  },
+  "hero-cta": {
+    "text": "RÉSERVER SUR PLANITY ↗",
+    "font": "manrope600",
+    "ink": [
+      59,
+      448,
+      198,
+      458
+    ],
+    "size": 10.1,
+    "scale_x": 1.136,
+    "baseline": 457.8
+  },
+  "place1": {
+    "text": "UNE ADRESSE.",
+    "font": "anton",
+    "ink": [
+      37,
+      564,
+      277,
+      619
+    ],
+    "size": 62.86,
+    "scale_x": 0.764,
+    "baseline": 618.5
+  },
+  "place2": {
+    "text": "VOTRE PARENTHÈSE.",
+    "font": "anton",
+    "ink": [
+      37,
+      622,
+      378,
+      682
+    ],
+    "size": 54.18,
+    "scale_x": 0.875,
+    "baseline": 681.6
+  },
+  "place-sub": {
+    "text": "La Dépendance · Au sein de La Maison B",
+    "font": "manrope",
+    "ink": [
+      37,
+      695,
+      245,
+      705
+    ],
+    "size": 9.8,
+    "scale_x": 1.175,
+    "baseline": 702.6
+  },
+  "services1": {
+    "text": "CHACUNE",
+    "font": "anton",
+    "ink": [
+      124,
+      874,
+      447,
+      975
+    ],
+    "size": 115.43,
+    "scale_x": 0.856,
+    "baseline": 974.1
+  },
+  "services2": {
+    "text": "SON",
+    "font": "anton",
+    "ink": [
+      52,
+      1002,
+      193,
+      1097
+    ],
+    "size": 108.57,
+    "scale_x": 0.934,
+    "baseline": 1096.2
+  },
+  "services2b": {
+    "text": "SON ÉCLAT.",
+    "font": "anton",
+    "ink": [
+      52,
+      985,
+      451,
+      1097
+    ],
+    "size": 101.13,
+    "scale_x": 0.979,
+    "baseline": 1096.2
+  },
+  "services-links": {
+    "text": "Onglerie",
+    "font": "manrope",
+    "ink": [
+      51,
+      1117,
+      95,
+      1129
+    ],
+    "size": 12.12,
+    "scale_x": 0.947,
+    "baseline": 1125.9
+  },
+  "services-cta": {
+    "text": "DÉCOUVRIR LES PRESTATIONS ↗",
+    "font": "manrope600",
+    "ink": [
+      506,
+      1116,
+      683,
+      1126
+    ],
+    "size": 10.1,
+    "scale_x": 1.147,
+    "baseline": 1125.8
+  },
+  "eyebrow": {
+    "text": "Ongles & regard",
+    "font": "manrope",
+    "ink": [
+      31,
+      1194,
+      124,
+      1206
+    ],
+    "size": 12.12,
+    "scale_x": 1.058,
+    "baseline": 1202.9
+  },
+  "create1": {
+    "text": "DESSINER.",
+    "font": "anton",
+    "ink": [
+      31,
+      1214,
+      234,
+      1275
+    ],
+    "size": 69.71,
+    "scale_x": 0.807,
+    "baseline": 1274.5
+  },
+  "create2": {
+    "text": "SOULIGNER.",
+    "font": "anton",
+    "ink": [
+      31,
+      1283,
+      263,
+      1349
+    ],
+    "size": 75.43,
+    "scale_x": 0.75,
+    "baseline": 1348.4
+  },
+  "create3": {
+    "text": "R",
+    "font": "anton",
+    "ink": [
+      31,
+      1354,
+      62,
+      1413
+    ],
+    "size": 68.6,
+    "scale_x": 1.076,
+    "baseline": 1413.0
+  },
+  "team1": {
+    "text": "Le sens du détail.",
+    "font": "manrope",
+    "ink": [
+      43,
+      1496,
+      228,
+      1517
+    ],
+    "size": 26.42,
+    "scale_x": 0.898,
+    "baseline": 1516.6
+  },
+  "team2": {
+    "text": "Le plaisir du lien.",
+    "font": "manrope",
+    "ink": [
+      42,
+      1530,
+      223,
+      1557
+    ],
+    "size": 27.69,
+    "scale_x": 0.89,
+    "baseline": 1550.4
+  },
+  "book1": {
+    "text": "VOTRE",
+    "font": "anton",
+    "ink": [
+      35,
+      1789,
+      227,
+      1883
+    ],
+    "size": 107.43,
+    "scale_x": 0.809,
+    "baseline": 1882.2
+  },
+  "book2": {
+    "text": "MOMENT.",
+    "font": "anton",
+    "ink": [
+      38,
+      1890,
+      314,
+      1985
+    ],
+    "size": 108.57,
+    "scale_x": 0.737,
+    "baseline": 1984.2
+  },
+  "book-lead": {
+    "text": "Choisissez votre rendez-vous sur Planity.",
+    "font": "manrope",
+    "ink": [
+      37,
+      1995,
+      285,
+      2008
+    ],
+    "size": 13.33,
+    "scale_x": 0.981,
+    "baseline": 2004.8
+  },
+  "book-cta": {
+    "text": "PRENDRE RENDEZ-VOUS ↗",
+    "font": "manrope600",
+    "ink": [
+      71,
+      2029,
+      214,
+      2038
+    ],
+    "size": 12.0,
+    "scale_x": 0.957,
+    "baseline": 2037.8
+  },
+  "addr": {
+    "text": "22 Grande Rue · 44160 Pontchâteau",
+    "font": "manrope",
+    "ink": [
+      63,
+      2077,
+      238,
+      2085
+    ],
+    "size": 10.32,
+    "scale_x": 1.041,
+    "baseline": 2084.8
+  },
+  "insta": {
+    "text": "@ladependance_beauteduregard",
+    "font": "manrope",
+    "ink": [
+      64,
+      2101,
+      226,
+      2111
+    ],
+    "size": 10.1,
+    "scale_x": 1.03,
+    "baseline": 2108.4
+  }
+}
