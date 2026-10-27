@@ -204,6 +204,7 @@ export function renderPage() {
     </section>
   </main>
 
+  <!-- TODO(dependance): mentions légales (raison sociale, SIRET, hébergeur) once the institute sends them -->
   <footer class="site-footer">
     <p>${site.name} · ${site.tagline} · ${site.address.street}, ${site.address.postcode} ${site.address.city}</p>
     <nav aria-label="Pied de page"><button type="button" class="js-only" data-motion-toggle aria-pressed="false">Mettre en pause</button><a href="#accueil">Retour en haut <span aria-hidden="true">↑</span></a></nav>

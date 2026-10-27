@@ -17,6 +17,7 @@ export const site = {
     // TODO(dependance): Google place link (cid) once the listing is confirmed; address search until then
     maps: 'https://www.google.com/maps/search/?api=1&query=La+Maison+B+22+Grande+Rue+44160+Pontch%C3%A2teau',
   },
+  // TODO(dependance): service list and wording to confirm with the institute (prices stay on Planity)
   services: {
     ongles: {
       tab: 'Ongles',

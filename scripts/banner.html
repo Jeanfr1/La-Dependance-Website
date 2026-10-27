@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: Anton; src: url('../src/fonts/Anton-400.woff2'); }
+  @font-face { font-family: Manrope; src: url('../src/fonts/Manrope-400.woff2'); }
+  @font-face { font-family: Manrope; src: url('../src/fonts/Manrope-600.woff2'); font-weight: 600; }
+  @font-face { font-family: Caveat; src: url('../src/fonts/Caveat-500.woff2'); }
+  html, body { margin: 0; }
+  .banner { position: relative; width: 1280px; height: 420px; overflow: hidden; background: #f5efe7 url('../public/img/studio-v1-1672.webp') center 35% / cover; color: #3d2435; font-family: Manrope, sans-serif; }
+  .banner::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(245, 239, 231, .55), rgba(245, 239, 231, 0) 60%); }
+  .copy { position: absolute; z-index: 2; left: 72px; top: 34px; }
+  .logo { width: 132px; display: block; margin-bottom: 14px; }
+  .script { font: 500 40px/1 Caveat, cursive; color: #9e6874; transform: rotate(-5deg); margin: 0 0 -2px 52px; }
+  h1 { margin: 0; font: 400 150px/.98 Anton, sans-serif; transform: scaleX(.6); transform-origin: 0 50%; white-space: nowrap; letter-spacing: 0; }
+  p { margin: 10px 0 0; font-size: 18px; letter-spacing: .01em; }
+  .tag { display: inline-block; margin-top: 18px; padding: 10px 20px; border-radius: 99px; background: #3d2435; color: #f5efe7; font: 600 12px/1 Manrope, sans-serif; text-transform: uppercase; letter-spacing: .04em; }
+  .portrait { position: absolute; z-index: 1; right: 70px; top: 24px; width: 360px; }
+  .interior { position: absolute; z-index: 0; right: 0; bottom: 0; width: 620px; height: 120px; object-fit: cover; object-position: 50% 30%; clip-path: ellipse(120% 100% at 100% 100%); }
+</style>
+</head>
+<body>
+<div class="banner">
+  <img class="portrait" src="../public/img/portrait-v1-840.webp" alt="">
+  <div class="copy">
+    <img class="logo" src="../public/img/logo-v1-520.webp" alt="">
+    <div class="script">votre beauté</div>
+    <h1>À PART.</h1>
+    <p>La beauté des ongles et du regard, à Pontchâteau.</p>
+    <span class="tag">Réserver sur Planity ↗</span>
+  </div>
+</div>
+</body>
+</html>

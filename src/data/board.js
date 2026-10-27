@@ -10,10 +10,12 @@ export const sections = {
   place: { top: 508, h: 343 },
   services: { top: 851, h: 312 },
   creations: { top: 1163, h: 284 },
-  team: { top: 1447, h: 383 },
+  team: { top: 1447, h: 400 },
   booking: { top: 1745, h: 396 },
 };
 
+// TODO(dependance): client sign-off on the two campaign plates (portrait in the D, phone scene)
+// and permission for the real photos taken from the institute's Google / Instagram pages.
 export const plates = {
   // hero foreground: D + portrait cut-out, rotated -1.07 deg about its top-left corner
   portrait: { x: 296.8, y: 49.5, w: 466.3, h: 569.4, rotate: -1.074 },
