@@ -13,11 +13,11 @@
 </p>
 
 <p>
-  <a href="https://la-dependance-pontchateau.vercel.app"><img src="https://img.shields.io/badge/Vercel-Live-3D2435?style=for-the-badge&logo=vercel&logoColor=white" alt="Live on Vercel" /></a>
+  <a href="https://la-dependance-pontchateau.vercel.app"><img src="https://img.shields.io/badge/Vercel-Live-535544?style=for-the-badge&logo=vercel&logoColor=white" alt="Live on Vercel" /></a>
   <img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 6" />
-  <img src="https://img.shields.io/badge/Lenis-smooth_scroll-D4B4BB?style=for-the-badge" alt="Lenis smooth scroll" />
+  <img src="https://img.shields.io/badge/Lenis-smooth_scroll-D6CCC0?style=for-the-badge" alt="Lenis smooth scroll" />
   <img src="https://img.shields.io/badge/JavaScript-ES2020-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/♿_Accessibility-first-9E6874?style=for-the-badge" alt="Accessibility first" />
+  <img src="https://img.shields.io/badge/♿_Accessibility-first-535544?style=for-the-badge" alt="Accessibility first" />
 </p>
 
 </div>
@@ -26,9 +26,9 @@
 
 ## 🚀 Overview
 
-**La Dépendance** is a nail and brow studio (onglerie, beauté du regard, maquillage semi-permanent) inside **La Maison B**, 22 Grande Rue in Pontchâteau. The client chose model 3 of the design kit, **« À PART. / Le Passage »**: a campaign portrait framed by the monogram's D, the real studio behind it, one mineral-rose pause, the real nail work, the real team and booking on Planity.
+**La Dépendance** is a nail and brow studio (onglerie, beauté du regard, maquillage semi-permanent) inside **La Maison B**, 22 Grande Rue in Pontchâteau. The client chose model 3 of the design kit, **« À PART. / Le Passage »**: the owner framed by a giant olive D, the real studio behind it, one beige pause, the real nail work, the real team and booking on Planity. On 2026-10-28 the identity moved to the official olive and beige palette and the owner's logo, with the layout and every animation unchanged.
 
-The page reproduces that approved board pixel for pixel on desktop, then animates it: as you scroll, the hero stays put while the real interior **rises over it**, the D and the portrait glide out of frame and the rose arc of the D cuts them away. Each later scene gets its own motion, and every booking button leads to the studio's Planity page.
+The page reproduces that approved board pixel for pixel on desktop, then animates it: as you scroll, the hero stays put while the real interior **rises over it**, the D and the portrait glide out of frame and the arc of the D cuts them away. Each later scene gets its own motion, and every booking button leads to the studio's Planity page.
 
 - **Board-exact desktop**: every photo is placed where SIFT registration found it on the approved board, every line of type is fitted to the board's ink box
 - **Real place, real work**: the interior, the nail art and the team are the studio's own photos, cleaned of capture UI and upscaled, never replaced by generated images
@@ -42,7 +42,7 @@ The page reproduces that approved board pixel for pixel on desktop, then animate
 ## 🎬 The hero animation
 
 <div align="center">
-  <a href="https://la-dependance-pontchateau.vercel.app"><img src=".github/assets/hero-scroll.gif" alt="Scrolling through the hero: the interior rises over the pinned hero, the D and the portrait slide out, cut by the rose arc, and the page continues into the services" width="100%" /></a>
+  <a href="https://la-dependance-pontchateau.vercel.app"><img src=".github/assets/hero-scroll.gif" alt="Scrolling through the hero: the interior rises over the pinned hero, the D and the portrait slide out, cut by the arc, and the page continues into the services" width="100%" /></a>
   <sub>Scroll-scrubbed on the live site · captured at 1440 × 900</sub>
 </div>
 
@@ -55,13 +55,13 @@ The hero is pinned for exactly its own height (508 board px, 0.79 of a 1440 × 9
 | on load  | 1.25 s intro: letters of **À PART.** rise one by one, *votre beauté* is written in, the portrait settles |
 | 0–30%    | The interior climbs over the studio wall; the lead line and **Réserver sur Planity** step back     |
 | 12–60%   | The title slides left and fades with the header; the mini header with **Prendre rendez-vous** takes over |
-| 42–100%  | The D and the portrait glide right (up to 32 vw) and grow 4.5 %, cut from below by the rising rose arc |
+| 42–100%  | The D and the portrait glide right (up to 32 vw) and grow 4.5 %, cut from below by the rising arc |
 | 100%     | The interior sits exactly where the approved board puts it: *Une adresse. Votre parenthèse.*      |
 
 **Under the hood**
 
 - 🧩 **Two sticky layers, one runway.** The stage (studio wall, words, header) and the foreground (D + portrait) are sibling sticky layers in a runway twice the hero's height; the next section has a negative margin of one hero, so the page below keeps its normal position and simply covers the hero.
-- 🌙 **The arc is a clip path that rides the interior.** The foreground's visible region is the area above the board's rose arc; every frame lifts it by the distance the interior has risen, so the D is always cut exactly at the interior's edge. The thin rose line over the shelves is the same curve.
+- 🌙 **The arc is a clip path that rides the interior.** The foreground's visible region is the area above the board's arc; every frame lifts it by the distance the interior has risen, so the D is always cut exactly at the interior's edge. The thin beige line over the shelves is the same curve.
 - 📐 **Measured, not guessed.** Plates were registered on the approved board with SIFT + RANSAC (`scripts/register-board.py`), type sizes and horizontal scales were fitted to the board's ink boxes (`scripts/fit-type.py`), and `npm run compare` renders the page next to the board with a 50 % blend.
 - 🐢 **Graceful by default.** With reduced motion, data saver, `?static` or the footer's **Mettre en pause** button, the runway and every scroll effect are removed and the page is the static board. Without JavaScript all copy, links and photos are still there.
 
@@ -70,7 +70,7 @@ The hero is pinned for exactly its own height (508 board px, 0.79 of a 1440 × 9
 ## 🖥️ Sections
 
 <div align="center">
-  <img src=".github/assets/desktop-sections.jpg" alt="Desktop screenshots: the interior with Une adresse. Votre parenthèse., the rose services scene, the fuchsia nail art with Dessiner. Souligner. Révéler., the team and the booking scene" width="100%" />
+  <img src=".github/assets/desktop-sections.jpg" alt="Desktop screenshots: the interior with Une adresse. Votre parenthèse., the beige services scene, the fuchsia nail art with Dessiner. Souligner. Révéler., the team and the booking scene" width="100%" />
 </div>
 
 <br />
@@ -79,7 +79,7 @@ The hero is pinned for exactly its own height (508 board px, 0.79 of a 1440 × 9
 | :-- | :---------------------------------------- | :-------------- | :------------------------------------------------------------------------------------------------ |
 | 01  | **votre beauté À PART.**                  | `#accueil`      | Campaign portrait in the D, first booking button; intro + the passage above                       |
 | 02  | **Une adresse. Votre parenthèse.**        | `#lieu`         | The real interior of La Maison B; lines rise out of a mask, photo parallax                         |
-| 03  | **À chacune son éclat.**                  | `#prestations`  | The one solid scene, mineral rose; 17 letters rise in scroll order, the monogram seal turns in; each service opens the panel |
+| 03  | **À chacune son éclat.**                  | `#prestations`  | The one solid scene, beige; 17 letters rise in scroll order, the logo seal turns in; each service opens the panel |
 | 04  | **Dessiner. Souligner. Révéler.**         | `#creations`    | Real fuchsia nail art; the photo wipes in, *Dessiner* is drawn, *Souligner* gets an underline sweep, *Révéler* comes out of a blur; gallery of four |
 | 05  | **Le sens du détail. Le plaisir du lien.** | `#equipe`       | The real team photo; curtain reveal and a word-by-word reading scrub                              |
 | 06  | **Votre moment.**                         | `#rendez-vous`  | Phone scene rising across the team's diagonal edge, Planity button, address and Instagram         |
@@ -132,10 +132,10 @@ The hero is pinned for exactly its own height (508 board px, 0.79 of a 1440 × 9
 
 | Token         | Value                                                                          | Use                                          |
 | :------------ | :----------------------------------------------------------------------------- | :------------------------------------------- |
-| Prune         | ![#3D2435](https://img.shields.io/badge/%233D2435-3D2435?style=flat-square)   | Type, buttons, D, footer                     |
-| Ivoire        | ![#F5EFE7](https://img.shields.io/badge/%23F5EFE7-F5EFE7?style=flat-square)   | Page, booking scene, type on photos          |
-| Rose minéral  | ![#D4B4BB](https://img.shields.io/badge/%23D4B4BB-D4B4BB?style=flat-square)   | The services scene, the arc, underline sweep |
-| Mauve         | ![#9E6874](https://img.shields.io/badge/%239E6874-9E6874?style=flat-square)   | *votre beauté*, small accents                |
+| Olive         | ![#535544](https://img.shields.io/badge/%23535544-535544?style=flat-square)   | Type, buttons, the D, logo, footer, *votre beauté* |
+| Beige         | ![#D6CCC0](https://img.shields.io/badge/%23D6CCC0-D6CCC0?style=flat-square)   | Page, services scene, type on photos, the arc |
+
+The two colours come from the owner's official chart (2026-10-28). The CSS keeps the approved token names (`--prune` and `--mauve` now hold the olive, `--ivory` and `--rose` the beige), so no rule or animation changed; the mapping is in `identite/migracao-cores.json`.
 
 - **Type**: Anton condensed per line to the board (scaleX 0.60 for **À PART.**, 0.74–0.88 elsewhere), Manrope for text and navigation, Caveat 500 for the handwritten accent
 - **Scale**: desktop draws the 734 px board at the density of a 1024 px board, `--u = min(100cqw, 1600px) / 1024`, centred, with photos and colour bleeding to the edges; small text floored at 11 px
@@ -197,6 +197,7 @@ La-Dependance-Website/
 ├── public/                     # img/ (AVIF/WebP), og.jpg, favicons, robots.txt
 ├── scripts/                    # register-board, fit-type, clean-photos, prepare-images,
 │                               # build-images, build-fonts, qa, compare-board, readme-assets
+├── identite/                   # Owner identity (2026-10-28): portrait master, phone scene, logo, colour map
 └── kit (not deployed)          # LEIA-ME-KIT.md, roteiros/, references/, brand/, images/,
                                 # business-card/, docs/, motion/, fonts-print/, site/, tools/
 ```
@@ -227,7 +228,7 @@ Items waiting on the institute. Each one is marked `TODO(dependance)` in the cod
 - [ ] Mentions légales: business name, SIRET and host details for the footer
 - [ ] Google listing link (`cid`) for the address; it opens an address search until then
 - [ ] Confirm the service list and its wording (prices and availability stay on Planity)
-- [ ] Sign-off on the two campaign images (the portrait in the D and the phone scene)
+- [x] The portrait in the D is the owner (2026-10-28), same composition as the approved plate; how it was made is in `identite/LEIA-ME.md`
 - [ ] Permission for the real photos taken from the institute's Google and Instagram pages
 
 Choices made from the kit:

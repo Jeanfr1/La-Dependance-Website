@@ -83,12 +83,12 @@ const top = (page, sel, off = 0) => page.evaluate(([s, o]) => document.querySele
   }
   const frame = async (buf) => {
     const w = 1440; const h = 900; const bar = 44;
-    const chrome = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h + bar}"><rect width="${w}" height="${h + bar}" rx="14" fill="#2a1924"/><circle cx="26" cy="22" r="7" fill="#ff5f57"/><circle cx="50" cy="22" r="7" fill="#febc2e"/><circle cx="74" cy="22" r="7" fill="#28c840"/><rect x="520" y="10" width="400" height="24" rx="12" fill="#3d2435"/><text x="720" y="27" font-family="Helvetica" font-size="13" fill="#d4b4bb" text-anchor="middle">la-dependance-pontchateau.vercel.app</text></svg>`);
+    const chrome = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h + bar}"><rect width="${w}" height="${h + bar}" rx="14" fill="#3b3d30"/><circle cx="26" cy="22" r="7" fill="#ff5f57"/><circle cx="50" cy="22" r="7" fill="#febc2e"/><circle cx="74" cy="22" r="7" fill="#28c840"/><rect x="520" y="10" width="400" height="24" rx="12" fill="#535544"/><text x="720" y="27" font-family="Helvetica" font-size="13" fill="#d6ccc0" text-anchor="middle">la-dependance-pontchateau.vercel.app</text></svg>`);
     return sharp(chrome).composite([{ input: buf, left: 0, top: bar }]).png().toBuffer();
   };
   const framed = await Promise.all(shots.map(frame));
   const cw = 1440; const ch = 944; const gap = 40;
-  const sheet = await sharp({ create: { width: cw * 2 + gap * 3, height: ch * 2 + gap * 3, channels: 3, background: '#f5efe7' } })
+  const sheet = await sharp({ create: { width: cw * 2 + gap * 3, height: ch * 2 + gap * 3, channels: 3, background: '#e6dfd6' } })
     .composite(framed.map((input, i) => ({ input, left: gap + (i % 2) * (cw + gap), top: gap + Math.floor(i / 2) * (ch + gap) })))
     .png().toBuffer();
   await sharp(sheet).resize({ width: 1800 }).jpeg({ quality: 84, mozjpeg: true }).toFile(path.join(OUT, 'desktop-sections.jpg'));
@@ -108,14 +108,14 @@ const top = (page, sel, off = 0) => page.evaluate(([s, o]) => document.querySele
   await still.close();
   const phone = async (buf) => {
     const w = 390 + 28; const h = 844 + 28;
-    const svg = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><rect width="${w}" height="${h}" rx="58" fill="#1f141b"/></svg>`);
+    const svg = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><rect width="${w}" height="${h}" rx="58" fill="#2c2d24"/></svg>`);
     const mask = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844"><rect width="390" height="844" rx="44" fill="#fff"/></svg>`);
     const screen = await sharp(buf).composite([{ input: mask, blend: 'dest-in' }]).png().toBuffer();
     return sharp(svg).composite([{ input: screen, left: 14, top: 14 }]).png().toBuffer();
   };
   const framed = await Promise.all(shots.map(phone));
   const gap = 56;
-  const sheet = await sharp({ create: { width: 418 * 3 + gap * 4, height: 872 + gap * 2, channels: 3, background: '#d4b4bb' } })
+  const sheet = await sharp({ create: { width: 418 * 3 + gap * 4, height: 872 + gap * 2, channels: 3, background: '#d6ccc0' } })
     .composite(framed.map((input, i) => ({ input, left: gap + i * (418 + gap), top: gap })))
     .png().toBuffer();
   await sharp(sheet).resize({ width: 1500 }).jpeg({ quality: 86, mozjpeg: true }).toFile(path.join(OUT, 'mobile-screens.jpg'));

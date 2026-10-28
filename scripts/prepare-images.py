@@ -43,7 +43,7 @@ def sr2(bgr):
 
 def phone_cutout():
     """RGBA of the phone in the booking scene (same canvas as the scene)."""
-    src = cv2.imread(str(ROOT / "images/master/reservation-scene.png"), cv2.IMREAD_COLOR)
+    src = cv2.imread(str(ROOT / "identite/reservation-scene.png"), cv2.IMREAD_COLOR)
     meta = json.loads((ROOT / "scripts/out/phone.json").read_text())
     poly = np.array(meta["polygon"], np.int32)
     mask = np.full(src.shape[:2], cv2.GC_BGD, np.uint8)

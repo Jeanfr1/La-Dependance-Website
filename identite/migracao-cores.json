@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "Cartela-Oficial.jpeg fornecida pela cliente em 28/10/2026",
+  "target": {
+    "olive": "#535544",
+    "beige": "#D6CCC0"
+  },
+  "replace_palette_literals": {
+    "#3D2435": "#535544",
+    "#F5EFE7": "#D6CCC0",
+    "#D4B4BB": "#D6CCC0",
+    "#9E6874": "#535544"
+  },
+  "rules": [
+    "Manter os nomes e as funções dos tokens atuais.",
+    "Atualizar somente cores da interface e da identidade; preservar cores naturais das fotos reais.",
+    "Fundo da única seção lisa: bege. Títulos e links nesse fundo: verde-oliva.",
+    "Na nova imagem de campanha, o D físico é verde-oliva, com sombras e reflexos fotográficos naturais.",
+    "Escolher a versão bege da logo para superfícies escuras e a versão oliva para superfícies claras.",
+    "Preservar fontes do site, dimensões, recortes, seções e comportamento de animação."
+  ]
+}

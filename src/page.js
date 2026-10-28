@@ -63,7 +63,7 @@ function arcPathMobile() {
 function header() {
   return `
       <header class="site-header">
-        <a class="brand b" href="#accueil" aria-label="La Dépendance, accueil" style="--x:60;--y:13;--w:134">${pic('logo', { alt: '', sizes: '200px', lazy: false })}</a>
+        <a class="brand b" href="#accueil" aria-label="La Dépendance, accueil" style="--x:89.7;--y:13;--w:74.5">${pic('logo', { alt: '', sizes: '120px', lazy: false })}</a>
         <nav class="nav" aria-label="Navigation principale">
           <a class="t m" href="#creations" style="${line(248, 34.9, 11.7)}">Ongles</a>
           <a class="t m" href="#prestations" data-service="regard" style="${line(323, 34.9, 11.9)}">Regard</a>
@@ -83,7 +83,7 @@ export function renderPage() {
   return `
   <a class="skip-link" href="#prestations">Aller aux prestations</a>
   <div class="mini-header" data-mini>
-    <a class="mini-brand" href="#accueil" aria-label="La Dépendance, accueil">${pic('logo', { alt: '', sizes: '120px' })}</a>
+    <a class="mini-brand" href="#accueil" aria-label="La Dépendance, accueil">${pic('logo', { alt: '', sizes: '60px' })}</a>
     <nav class="mini-nav" aria-label="Navigation rapide"><a href="#lieu">L’institut</a><a href="#prestations">Prestations</a><a href="#creations">Réalisations</a><a href="#rendez-vous">Rendez-vous</a></nav>
     ${book('Prendre rendez-vous', 'pill pill--solid mini-book')}
   </div>
@@ -136,7 +136,7 @@ export function renderPage() {
           <span class="ln t split" aria-hidden="true" style="${line(49, 970.3 - S.services.top, 112, 0.882)}">${chars('À CHACUNE')}</span>
           <span class="ln t split" aria-hidden="true" style="${line(49, 1096.2 - S.services.top, 112, 0.884)}">${chars('SON ÉCLAT.', 9)}</span>
         </h2>
-        <img class="seal b" src="/img/monogramme-${images.monogramme.v}-320.webp" width="320" height="${Math.round(320 * images.monogramme.height / images.monogramme.width)}" alt="" aria-hidden="true" loading="lazy" style="--x:640;--y:${1007 - S.services.top};--w:38">
+        <img class="seal b" src="/img/sceau-${images.sceau.v}-240.webp" width="240" height="${Math.round(240 * images.sceau.height / images.sceau.width)}" alt="" aria-hidden="true" loading="lazy" style="--x:634.8;--y:${1007 - S.services.top};--w:48.3">
         <p class="service-links" data-fade>
           <a class="t m" href="${site.booking}" data-service="ongles" style="${line(51, 1125.9 - S.services.top, 11.6)}">Onglerie</a><span class="sep t m" aria-hidden="true" style="${line(115, 1125.9 - S.services.top, 11.6)}">/</span><a class="t m" href="${site.booking}" data-service="regard" style="${line(137, 1125.9 - S.services.top, 11.6)}">Beauté du regard</a><span class="sep t m" aria-hidden="true" style="${line(248, 1125.9 - S.services.top, 11.6)}">/</span><a class="t m" href="${site.booking}" data-service="maquillage" style="${line(270, 1125.9 - S.services.top, 11.6)}">Maquillage semi-permanent</a>
         </p>
@@ -211,7 +211,7 @@ export function renderPage() {
   </footer>
 
   <dialog class="dialog service-dialog" id="services-dialog" aria-labelledby="service-dialog-title">
-    <form method="dialog" class="dialog-head">${pic('logo', { alt: 'La Dépendance', sizes: '140px' })}<button class="dialog-close" aria-label="Fermer les prestations">Fermer <span aria-hidden="true">×</span></button></form>
+    <form method="dialog" class="dialog-head">${pic('logo', { alt: 'La Dépendance — La beauté du regard', sizes: '80px' })}<button class="dialog-close" aria-label="Fermer les prestations">Fermer <span aria-hidden="true">×</span></button></form>
     <p class="dialog-eyebrow">À chacune son éclat.</p>
     <h2 id="service-dialog-title">Choisir votre moment.</h2>
     <div class="tabs" role="tablist" aria-label="Catégories de prestations">

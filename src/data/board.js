@@ -14,8 +14,8 @@ export const sections = {
   booking: { top: 1745, h: 396 },
 };
 
-// TODO(dependance): client sign-off on the two campaign plates (portrait in the D, phone scene)
-// and permission for the real photos taken from the institute's Google / Instagram pages.
+// Portrait in the D: the owner (identite/, 2026-10-28), same composition as the approved plate.
+// TODO(dependance): permission for the real photos taken from the institute's Google / Instagram pages.
 export const plates = {
   // hero foreground: D + portrait cut-out, rotated -1.07 deg about its top-left corner
   portrait: { x: 296.8, y: 49.5, w: 466.3, h: 569.4, rotate: -1.074 },
@@ -24,7 +24,7 @@ export const plates = {
   nails: { x: 103, y: -310, w: 861, h: 1017 },
   team: { x: 285.6, y: -102.4, w: 409.1, h: 504.6 },
   booking: { x: 18.2, y: 9.7, w: 702, h: 395.1 },
-  phone: { x: 381.8, y: 60.5, w: 164.6, h: 88.6 },
+  phone: { x: 381.8, y: 60.9, w: 164.6, h: 88.2 },
 };
 
 // The rose arc: lower edge of the hero foreground and the thin line over the interior.
