@@ -13,18 +13,18 @@
     "v": "v1"
   },
   "portrait": {
-    "width": 1135,
-    "height": 1386,
+    "width": 1134,
+    "height": 1387,
     "widths": [
       560,
       840,
-      1135
+      1134
     ],
     "offset": [
       0,
       0
     ],
-    "v": "v2"
+    "v": "v3"
   },
   "interieur": {
     "width": 2700,

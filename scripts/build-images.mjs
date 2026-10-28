@@ -13,7 +13,7 @@ const V = 'v1';
 
 const PLATES = [
   { name: 'studio', src: 'images/master/hero-studio.png', widths: [960, 1672] },
-  { name: 'portrait', src: 'identite/hero-portrait-D.png', widths: [560, 840, 1135], alpha: true, v: 'v2' },
+  { name: 'portrait', src: 'identite/hero-portrait-D.png', widths: [560, 840, 1134], alpha: true, v: 'v3' },
   { name: 'interieur', src: 'scripts/out/plates/interieur.png', widths: [800, 1300, 1900, 2700] },
   { name: 'ongles', src: 'scripts/out/plates/ongles-fuchsia.png', widths: [760, 1150, 1524] },
   { name: 'equipe', src: 'images/originals/equipe-original.png', widths: [700, 1000, 1346], crop: [0, 0, 1346, 1660] },

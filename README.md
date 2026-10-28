@@ -228,7 +228,7 @@ Items waiting on the institute. Each one is marked `TODO(dependance)` in the cod
 - [ ] Mentions légales: business name, SIRET and host details for the footer
 - [ ] Google listing link (`cid`) for the address; it opens an address search until then
 - [ ] Confirm the service list and its wording (prices and availability stay on Planity)
-- [x] The portrait in the D is the owner (2026-10-28), same composition as the approved plate; how it was made is in `identite/LEIA-ME.md`
+- [x] The portrait in the D is the owner (2026-10-28): the plate from the identity package, at the approved plate's scale and moved 32 board px right so the D clears the period of « À PART. » (`identite/LEIA-ME.md`)
 - [ ] Permission for the real photos taken from the institute's Google and Instagram pages
 
 Choices made from the kit:
